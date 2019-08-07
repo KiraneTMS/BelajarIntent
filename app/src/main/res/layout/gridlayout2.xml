@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:paddingStart="25dp">
+    <TextView
+        android:text="A"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="B"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="C"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="D"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="E"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="F"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="G"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="H"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="I"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="J"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="K"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+    <TextView
+        android:text="L"
+        android:textSize="50dp"
+        android:padding="25dp"/>
+
+</GridLayout>
