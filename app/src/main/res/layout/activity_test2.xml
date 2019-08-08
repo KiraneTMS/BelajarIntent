@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".test2">
-    <TextView
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/explicitintent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Test2"
-        android:textSize="190dp"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Klik disini untuk explicit intent"/>
+
+    <Button
+        android:id="@+id/explicitintent2"
+        android:layout_below="@+id/explicitintent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Klik disini untuk explicit intent"/>
+
+    <Button
+        android:id="@+id/explicitintent3"
+        android:layout_below="@+id/explicitintent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Klik disini untuk explicit intent"/>
+
+    <Button
+        android:id="@+id/explicitintent4"
+        android:layout_below="@id/explicitintent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Klik disini untuk explicit intent"/>
+
+    <Button
+        android:id="@+id/explicitintent5"
+        android:layout_below="@+id/explicitintent4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Klik disini untuk explicit intent"/>
+
+    <Button
+        android:id="@+id/implicitintent"
+        android:layout_below="@id/explicitintent5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Klik disini untuk explicit implicit"/>
+
 </RelativeLayout>
